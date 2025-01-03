@@ -27,8 +27,8 @@
 
 1. 克隆仓库
 ```bash
-git clone https://github.com/你的用户名/交易计算器.git
-cd 交易计算器
+git clone https://github.com/openai1998/TransactionCalculator.git
+cd TransactionCalculator
 ```
 
 2. 安装依赖
