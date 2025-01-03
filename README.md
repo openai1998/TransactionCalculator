@@ -1,8 +1,3 @@
-
-
-好的，我来完善 README.md 文档：
-
-
 # 交易计算器
 
 一个基于 Python/Tkinter 开发的交易计算器，用于快速计算加密货币杠杆交易的盈亏情况。
@@ -45,6 +40,17 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
+## Windows预打包文件
+
+为方便Windows用户使用,提供了打包好的exe可执行文件:
+
+1. 下载地址: [交易计算器v1.0.exe](https://github.com/openai1998/TransactionCalculator/releases/tag/Release)
+
+2. 下载完成后直接双击运行即可,无需安装Python环境
+
+注意:
+- 首次运行可能会被杀毒软件拦截,请允许运行
+- 如遇到问题,建议使用上述源码方式安装运行
 
 ## 使用说明
 
@@ -77,7 +83,7 @@ python app.py
 
 ## 项目结构
 
-```
+```shell
 交易计算器/
 ├── app.py          # 主程序
 ├── requirements.txt # 依赖列表
@@ -110,15 +116,11 @@ python app.py
    - 确保图标文件格式为 PNG
 
 2. **如何修改默认杠杆倍数？**
-   - 在 app.py 中修改 LEVERAGE_VALUES 列表
+   ```python
+   # 在 app.py 中修改 LEVERAGE_VALUES 列表
+   LEVERAGE_VALUES = [1, 2, 5, 10, 20, 50, 100, 125]
+   ```
 
-## 贡献指南
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交改动 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 提交 Pull Request
 
 ## 许可证
 
@@ -128,11 +130,7 @@ python app.py
 
 ## 联系方式
 
-如有问题或建议，欢迎提交 Issue 或通过以下方式联系：
-
-- 邮箱：your.email@example.com
-- Twitter：@yourhandle
-
+如有问题或建议，欢迎提交 [Issue](https://github.com/openai1998/TransactionCalculator/issues) 或通过以下方式联系：
 ## 致谢
 
 - 感谢所有贡献者的支持
